@@ -1,0 +1,38 @@
+main{
+    box-shadow:  rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    cursor: pointer;
+}
+
+#banner{
+    box-shadow:  rgba(17, 16, 16, 0.05) 0px 4px 12px 0px;
+}
+
+#banner-img{
+    width: 99%;
+    /* height: ; */
+    padding: 12px 6px;
+}
+
+#banner-brands-name{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+    padding: 50px 0px 50px 25px;
+    color: gray;
+}
+
+#brands-imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#brands-img{
+    width: 15%;
+}
+
+#brands-imgs-container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

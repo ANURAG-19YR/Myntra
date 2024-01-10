@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
+
+
+footer{
+    box-shadow:  rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    padding: 50px 190px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+#footer-links{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-header{
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    padding-bottom: 17px;
+}
+#footer-links{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: gray;
+    font-family: 'Assistant', sans-serif;  
+}
+
+#link-imgs{
+    width: 100px;
+    height: 50px;
+}
+#link-icon-imgs{
+
+    width: 38px;
+    height: 30px;
+}
+
+#img-in-link{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.link-logo-imgs{
+    width: 75px;
+    padding: 5px 0px;
+}
+#logo-text{
+    padding-top: 12px;
+    font-family: 'Assistant', sans-serif;  
+    color: gray;
+}
+strong{
+    color: black;
+}
