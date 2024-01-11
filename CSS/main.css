@@ -9,6 +9,7 @@ main{
 
 #banner-img{
     width: 99%;
+    /* width: 280px; */
     /* height: ; */
     padding: 12px 6px;
 }
@@ -28,7 +29,8 @@ main{
 }
 
 #brands-img{
-    width: 15%;
+    /* width: 15%; */
+    width: 280px;
 }
 
 #brands-imgs-container3{
