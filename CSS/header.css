@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
 
+/* this for responsivee */
+#myntra-new-logo{
+    display: none;
+}
+#myntra-new-logo2{
+    display: none;
+}
+
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
-
 header {
     /* background: gray; */
     /* border: 1px solid black; */
@@ -31,6 +40,44 @@ header {
     color: rgb(40, 44, 63);
     cursor: pointer;
 }
+
+@media (max-width:600px) {
+    #link{
+        display: none;
+    }    
+    #search-icon{
+        display: none;
+    }
+    #search{
+        /* width: 200px;
+        flex-shrink: 1.5; */
+    }
+    #myntra-logo{
+        display: none;
+        /* background-image: url(https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png); */
+    }
+    
+    #myntra-new-logo2{
+        /* padding: 0px 30px; */
+        font-size: 35px;
+        font-weight: 300;
+        color: gray;
+        display: inline;
+    }
+    #myntra-new-logo{
+        display:flex;
+        height:60px ;
+        width: 100%;
+    }
+
+    #responsive-here{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+
+}
+
 #link:hover{
     border-bottom: 5px solid rgb(255, 63, 108);
 }
