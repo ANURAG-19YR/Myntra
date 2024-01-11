@@ -12,19 +12,22 @@ header {
     display: flex;
     justify-content: space-around;
     box-shadow:  rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    font-size: 2rem;
+    flex-wrap: wrap;
 }
 
 
 #myntra-logo {
     width:50px;
     height:40px;
+    padding-top: 10px;
 }
 
 #link {
     text-decoration: none;
     font-family: 'Assistant', sans-serif;
     font-size: 16px;
-    padding-top: 7px;
+    padding-top: 15px;
     color: rgb(40, 44, 63);
     cursor: pointer;
 }
@@ -49,11 +52,12 @@ header {
     background:  rgb(245, 245, 246);
     border-radius: 0px 4px 4px 0px;
     font-family: 'Assistant', sans-serif;
+    margin-top: 8px;
 }
 
 ::placeholder{
     color: rgba(173, 173, 198, 0.875);
-    font-size: 15px;
+    font-size: 1.5 rem;
     /* border: none; */
 }
 
@@ -70,19 +74,20 @@ header {
     font-size: 28px;
     color: gray;
     font-weight: 300;
-
-
+    margin-top: 8px;
 }
 
 #right-icon-div{
     display: flex;
     /* display: inline; */
+    align-items: center;
+    justify-content: space-evenly;
 }
 .right-icons-name{
     font-size: 14px;
-    position: relative;
+    /* position: relative;
     top: 9px;
-    right: 38px;
+    right: 38px; */
     font-family: 'Assistant', sans-serif;
     text-align: center;
     color: black;
@@ -94,4 +99,12 @@ header {
     font-weight: 300;
     align-items: center;
     cursor: pointer;
+}
+
+
+#right-icons-container{
+    text-align: center;
+    /* padding: auto; */
+    padding: 0px 15px;
+  
 }
